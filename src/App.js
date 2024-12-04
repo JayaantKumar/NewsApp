@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react'
+import NavBar from './components/NavBar';
+import News from './components/News';
+import {BrowserRouter as Router, Routes, Route} from "react-router";
+import LoadingBar from 'react-top-loading-bar'
+export default class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+  render() {
+    const App = ()=> {
+      const pageSize = 5;
+      const apiKey = process.env.REACT_APP_NEWS_API
+      const [progress, setProgress] = useState(0)
+    return (
+      <div>
+        <NavBar/>
+        <News/>
+      </div>
+    )
+  }
 }
 
-export default App;
