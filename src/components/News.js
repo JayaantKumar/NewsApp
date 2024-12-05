@@ -81,7 +81,7 @@ export class News extends Component {
                 title="President Murmu on Samvidhan Divas: The Indian constitution is a live, progressive document"
                 description="The Indian Constitution is a live and progressive document through we have achieved the goals of social justice and inclusive development, President Droupadi Murmu said on Tuesday."
                 imageUrl="https://www.hindustantimes.com/ht-img/img/2024/11/26/550x309/PTI11-26-2024-000037A-0_1732607174010_1732607213819.jpg"
-                newsUrl="TODO"
+                        newsUrl="https://www.hindustantimes.com/india-news/pmo-updates-cover-image-on-x-congress-claims-direct-impact-of-rahul-gandhis-101718116024067.html"
               />
             </div>
             <div className="col-md-4">
@@ -96,6 +96,7 @@ export class News extends Component {
                 title="A celebration of the indomitable spirit of our freedom struggle"
                 description="India celebrates 75 years since adopting its Constitution, highlighting efforts to preserve its original manuscripts for future generations"
                 imageUrl="https://www.hindustantimes.com/ht-img/img/2024/11/27/550x309/Dr_Babasaheb_Ambedkar_1726931368716_1732677347143.jpg"
+                        newsUrl="https://www.hindustantimes.com/india-news/pmo-updates-cover-image-on-x-congress-claims-direct-impact-of-rahul-gandhis-101718116024067.html"
               />
             </div>
             <div className="col-md-4">
@@ -114,7 +115,9 @@ export class News extends Component {
                 <NewsItem
                 title="Protecting the Constitution is India’s primary battle: Rahul Gandhi"
                 description="Rahul Gandhi also said it was the first time he is seeking votes for his sister who has campaigned for him, and their parents earlier."
-                imageUrl="https://www.hindustantimes.com/ht-img/img/2024/11/03/550x309/Lok-Sabha-Leader-of-Opposition-Rahul-Gandhi-and-Co_1730661236091_1730673038191.jpg"/>
+                imageUrl="https://www.hindustantimes.com/ht-img/img/2024/11/03/550x309/Lok-Sabha-Leader-of-Opposition-Rahul-Gandhi-and-Co_1730661236091_1730673038191.jpg"
+                          newsUrl="https://www.hindustantimes.com/india-news/pmo-updates-cover-image-on-x-congress-claims-direct-impact-of-rahul-gandhis-101718116024067.html"
+                />
             </div>
             <div className="col-md-4">
                 <NewsItem
@@ -132,13 +135,17 @@ export class News extends Component {
                 <NewsItem
                 title="Indian Constitution's rare first edition auctioned for record price of…"
                 description="A rare first edition of the Constitution of India was sold at an auction for ₹48 lakh, its highest price so far"
-                imageUrl="https://images.hindustantimes.com/img/2024/07/31/550x309/constitution_1695050727251_1722390952228.jpg"/>
+                imageUrl="https://images.hindustantimes.com/img/2024/07/31/550x309/constitution_1695050727251_1722390952228.jpg"
+                  newsUrl="https://www.hindustantimes.com/india-news/president-murmu-on-samvidhan-divas-the-indian-constitution-is-a-live-progressive-document-101732606608010.html"
+                />
             </div>
             <div className="col-md-4">
                 <NewsItem
                 title="Sale of Constitution's copies increase amid INDIA bloc campaign: Report"
                 description="The small copy of the Constitution that has become a symbol of the Opposition INDIA bloc's protest, has increased sales for one publisher"
-                imageUrl="https://www.hindustantimes.com/ht-img/img/2024/06/25/550x309/Congress-leader-Sonia-Gandhi-and-other-INDIA-bloc-_1719254092317_1719286622767.jpg"/>
+                imageUrl="https://www.hindustantimes.com/ht-img/img/2024/06/25/550x309/Congress-leader-Sonia-Gandhi-and-other-INDIA-bloc-_1719254092317_1719286622767.jpg"
+                  newsUrl="https://www.hindustantimes.com/india-news/pmo-updates-cover-image-on-x-congress-claims-direct-impact-of-rahul-gandhis-101718116024067.html"
+                />
             </div>
             <div className="col-md-4">
                 <NewsItem
